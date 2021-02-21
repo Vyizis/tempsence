@@ -12,7 +12,7 @@
     #define DHTTYPE DHT11
     #define DHTPIN  2
      
-    const char* ssid     = "Skynet";
+    const char* ssid     = WIFI_SSID;
     const char* password = WIFI_PASSWORD;
      
     ESP8266WebServer server(80);
